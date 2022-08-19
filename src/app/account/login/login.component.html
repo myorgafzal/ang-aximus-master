@@ -35,9 +35,9 @@
                                         <label for="userpassword">Password</label>
                                         <div class="input-group auth-pass-inputgroup">
                                             <input [type]="fieldTextType ? 'text' : 'password'" class="form-control" formControlName="password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" placeholder="Enter password" aria-label="Password" aria-describedby="password-addon">
-                                            <button class="btn btn-light " type="button" id="password-addon"><i
+                                            <button class="btn btn-light " type="button" id="password-addon"><em
                                                     class="mdi" [ngClass]="{'mdi-eye-off-outline': !fieldTextType, 'mdi-eye-outline': fieldTextType
-                                                      }" (click)="toggleFieldTextType()"></i></button>
+                                                      }" (click)="toggleFieldTextType()"></em></button>
                                             <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
                                                 <span *ngIf="f.password.errors.required">Password is required</span>
                                             </div>
@@ -86,7 +86,7 @@
                                 </div>
                             </div>
                             <div class="mt-4 mt-md-5 text-center">
-                                <p class="mb-0">© {{year}} Minia . Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand
+                                <p class="mb-0">© {{year}} Minia . Crafted with <em class="mdi mdi-heart text-danger"></em> by Themesbrand
                                 </p>
                             </div>
                         </div>
@@ -121,7 +121,7 @@
                                             <ng-template ngbSlide>
                                                 <div class="carousel-item active">
                                                     <div class="testi-contain text-white">
-                                                        <i class="bx bxs-quote-alt-left text-success display-6"></i>
+                                                        <em class="bx bxs-quote-alt-left text-success display-6"></em>
 
                                                         <h4 class="mt-4 fw-medium lh-base text-white">“I feel confident imposing change on myself. It's a lot more progressing fun than looking back. That's why I ultricies enim at malesuada nibh diam on tortor neaded to throw curve balls.”
                                                         </h4>
@@ -143,7 +143,7 @@
                                             <ng-template ngbSlide>
                                                 <div class="carousel-item active">
                                                     <div class="testi-contain text-white">
-                                                        <i class="bx bxs-quote-alt-left text-success display-6"></i>
+                                                        <em class="bx bxs-quote-alt-left text-success display-6"></em>
 
                                                         <h4 class="mt-4 fw-medium lh-base text-white">“Our task must be to free ourselves by widening our circle of compassion to embrace all living creatures and the whole of quis consectetur nunc sit amet semper justo. nature and its beauty.”</h4>
                                                         <div class="mt-4 pt-3 pb-5">
